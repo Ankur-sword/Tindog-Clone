@@ -1,0 +1,160 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    /* position: absolute;
+    z-index: 0; */
+}
+
+.container-fluid{
+    
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* Download Button */
+.downloadButton{
+    margin: 3% 5% 3% 0;
+}
+
+
+/* title Image */
+.titleImage{
+
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+   
+  
+}
+/* Features Section */
+#features{
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+    
+} 
+.icon{
+  
+    padding-bottom: 10%;
+    color: tomato;
+}
+.icon:hover
+{
+    color: red;
+}
+.cen{
+
+    text-align: center;
+  padding: 5%;
+  
+}
+.font{
+    color: gray;
+}
+
+/* Testimonials */
+#testimonials{
+   
+    text-align: center;
+    background-color: #FF6B6B;
+    color:#fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+/* Press Section */
+
+#press{
+    background-color: #FF6B6B;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 5% 3% 5% 3%;
+}
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+ .space{
+padding:  2% 3%;
+} 
+
+
+/* Mobile view */
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Cat */
+
+#cta{
+    padding: 10% 15% ;
+    background-color:#ff4c68 ;
+    text-align: center;
+    color:#fff;
+}
+
+/* footer */
+#footer{
+    padding: 10% 15%;
+    text-align: center;
+    background-color: #fff;
+    color: gray;
+}
